@@ -1,16 +1,29 @@
-# article_app
+# Flutter Article App  
 
-A new Flutter project.
+A Flutter application that replicates the **Medium** app design while allowing users to perform CRUD operations on articles using an API. The app also provides filtering options and follows clean code principles.  
 
-## Getting Started
+## Features  
+- 📝 **Article CRUD Operations** - Create, read, update, and delete articles via API.  
+- 🎨 **Medium-Like UI** - Tried to closely match Medium’s design.  
+- 🔍 **Filtering Options** - Users can filter articles by various parameters.  
+- 🏗 **State Management** - Implemented using **BLoC** and **Cubit**.  
+- 🌐 **Network Requests** - Managed using the **http** package.  
+- 🛠 **Clean Code** - Followed best practices for maintainable and scalable code.  
 
-This project is a starting point for a Flutter application.
+## Tech Stack  
+- **Flutter** - Frontend framework  
+- **Dart** - Programming language  
+- **BLoC & Cubit** - State management  
+- **HTTP Package** - API communication  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting Started  
+1. Clone the repository:  
+   ```sh
+   git clone <repo-url>
+   cd <project-folder>
+2. Install dependencies:   
+   ```sh
+   flutter pub get
+3. Run the app:
+   ```sh
+   flutter run
